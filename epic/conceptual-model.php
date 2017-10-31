@@ -17,6 +17,7 @@
 			<li>profileSalt</li>
 			<li>profileRole</li>
 			<li>profileImage</li>
+			<li>profileActive</li>
 		</ul>
 		<h4>COMPANY</h4>
 		<ul>
@@ -33,9 +34,16 @@
 			<li>taskProfileId (foreign key)</li>
 			<li>taskName</li>
 			<li>taskDetail</li>
+			<li>taskDueDate</li>
 			<li>taskCompletionDate</li>
+			<li>taskStatus</li>
 			<li>taskLastUpdated</li>
 			<li>taskVersion</li>
 		</ul>
+		<h4>ROLE</h4>
+		<ul>
+			<li>roleId (primary key)</li>
+			<li>companyId (foreign key)</li>
+			<li>roleName</li>
 	</body>
 </html>
